@@ -1,0 +1,41 @@
+body {
+	animation:changeBg 5s linear infinite;
+	color: lightgray;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+}
+
+
+@keyframes changeBg {
+	0% {
+		background-color: red;
+	}
+  25% {
+  	  background-color: orange;
+   }
+	
+  50% {
+        background-color: green;
+    }
+  75% {
+  	background-color: orange;
+  }
+        
+        
+     100% {
+     	background-color: red;
+    }
+     
+     
+}
+p   {
+    	
+   font-size: 40px
+   
+}
+hi  {
+  text-decoration: underline;
+  font-size: 25px;
+  }
